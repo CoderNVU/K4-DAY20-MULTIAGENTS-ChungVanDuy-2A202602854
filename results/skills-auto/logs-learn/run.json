@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "skills-auto",
+  "role": "learn",
+  "score": 0.0,
+  "passed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "exception_fields",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\tmp_e_koac_\\\\workspace\\\\errors.json'"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "total": 0
+  },
+  "tool_calls": 0,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "skills_sha256": "f1a60d74cf5ea3942c02d3b03a37f2d9321d189552240994a90e873bd49052d5",
+  "timestamp": "2026-10-06T15:08:38.737757+00:00",
+  "seconds": 35.4,
+  "final_message": "",
+  "error": "APIError: The request timed out. Please try again."
+}
